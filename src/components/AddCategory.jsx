@@ -26,11 +26,11 @@ export const AddCategory = ({onNewCategory}) => {
                 placeholder='Buscar gifs...' 
                 value={inputValue} 
                 autoFocus
+                role="input"
             />
         </form>
     )
 }
-
 
 AddCategory.propTypes = {
     onNewCategory : PropTypes.func.isRequired
